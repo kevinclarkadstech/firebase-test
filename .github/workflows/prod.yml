@@ -25,6 +25,6 @@ jobs:
       with:
         node-version: ${{ matrix.node-version }}
     - run: npm install
-    - run: npm run firebase-deploy
+    - run: npm run deploy
       env:
         CI: true
