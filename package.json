@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "fb-login": "firebase login",
     "fb-init": "firebase init functions",
-    "deploy": "firebase deploy --only functions"
+    "deploy": "cd functions && cd src && npm run deploy"
   },
   "author": "",
   "license": "ISC",
